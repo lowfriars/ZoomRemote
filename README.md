@@ -32,7 +32,7 @@ estate for the buttons.
 
 ### Installing
 
-An apk file can be downloaded from the repository - it's not available in the Play store.
+An apk file can be downloaded from the repository (in the apk directory) - it's not available in the Play store.
 Further instructions on sideloading can be found [here](https://androidcommunity.com/how-to-sideloading-apps-on-your-android-device-20180417/).
 
 ### Usage
