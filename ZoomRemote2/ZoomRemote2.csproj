@@ -95,21 +95,13 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\ButtonBGDown.9.png" />
     <AndroidResource Include="Resources\drawable\ButtonBGNormal.9.png" />
-    <AndroidResource Include="Resources\drawable\ButtonMicDown.png" />
-    <AndroidResource Include="Resources\drawable\ButtonMicUp.png" />
     <AndroidResource Include="Resources\drawable\ButtonNext.png" />
     <AndroidResource Include="Resources\drawable\ButtonPlay.png" />
     <AndroidResource Include="Resources\drawable\ButtonPrev.png" />
     <AndroidResource Include="Resources\drawable\ButtonRecord.png" />
-    <AndroidResource Include="Resources\drawable\ButtonStop.png" />
     <AndroidResource Include="Resources\drawable\ButtonVolDown.png" />
     <AndroidResource Include="Resources\drawable\ButtonVolUp.png" />
-    <AndroidResource Include="Resources\drawable\ButtonWidth.png" />
     <AndroidResource Include="Resources\drawable\LevelBackgroundDefault.png" />
-    <AndroidResource Include="Resources\drawable\LevelBackgroundDefaultSml.png" />
-    <AndroidResource Include="Resources\drawable\LevelBackgroundGreen.png" />
-    <AndroidResource Include="Resources\drawable\LevelBackgroundRed.png" />
-    <AndroidResource Include="Resources\drawable\LevelBackgroundYellow.png" />
     <AndroidResource Include="Resources\drawable\LevelForeground.png" />
     <AndroidResource Include="Resources\xml\preferences.xml" />
   </ItemGroup>

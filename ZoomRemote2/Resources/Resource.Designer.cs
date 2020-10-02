@@ -56,70 +56,46 @@ namespace ZoomRemote
 			public const int ButtonMark = 2130771971;
 			
 			// aapt resource value: 0x7F010004
-			public const int ButtonMicDown = 2130771972;
+			public const int ButtonNext = 2130771972;
 			
 			// aapt resource value: 0x7F010005
-			public const int ButtonMicUp = 2130771973;
+			public const int ButtonPlay = 2130771973;
 			
 			// aapt resource value: 0x7F010006
-			public const int ButtonNext = 2130771974;
+			public const int ButtonPrev = 2130771974;
 			
 			// aapt resource value: 0x7F010007
-			public const int ButtonPlay = 2130771975;
+			public const int ButtonRecord = 2130771975;
 			
 			// aapt resource value: 0x7F010008
-			public const int ButtonPrev = 2130771976;
+			public const int ButtonRecordPause = 2130771976;
 			
 			// aapt resource value: 0x7F010009
-			public const int ButtonRecord = 2130771977;
+			public const int ButtonRecordRed = 2130771977;
 			
 			// aapt resource value: 0x7F01000A
-			public const int ButtonRecordPause = 2130771978;
+			public const int ButtonVolDown = 2130771978;
 			
 			// aapt resource value: 0x7F01000B
-			public const int ButtonRecordRed = 2130771979;
+			public const int ButtonVolUp = 2130771979;
 			
 			// aapt resource value: 0x7F01000C
-			public const int ButtonStop = 2130771980;
+			public const int GreenBar = 2130771980;
 			
 			// aapt resource value: 0x7F01000D
-			public const int ButtonVolDown = 2130771981;
+			public const int GreyBar = 2130771981;
 			
 			// aapt resource value: 0x7F01000E
-			public const int ButtonVolUp = 2130771982;
+			public const int Icon = 2130771982;
 			
 			// aapt resource value: 0x7F01000F
-			public const int ButtonWidth = 2130771983;
+			public const int LevelBackgroundDefault = 2130771983;
 			
 			// aapt resource value: 0x7F010010
-			public const int GreenBar = 2130771984;
+			public const int LevelForeground = 2130771984;
 			
 			// aapt resource value: 0x7F010011
-			public const int GreyBar = 2130771985;
-			
-			// aapt resource value: 0x7F010012
-			public const int Icon = 2130771986;
-			
-			// aapt resource value: 0x7F010013
-			public const int LevelBackgroundDefault = 2130771987;
-			
-			// aapt resource value: 0x7F010014
-			public const int LevelBackgroundDefaultSml = 2130771988;
-			
-			// aapt resource value: 0x7F010015
-			public const int LevelBackgroundGreen = 2130771989;
-			
-			// aapt resource value: 0x7F010016
-			public const int LevelBackgroundRed = 2130771990;
-			
-			// aapt resource value: 0x7F010017
-			public const int LevelBackgroundYellow = 2130771991;
-			
-			// aapt resource value: 0x7F010018
-			public const int LevelForeground = 2130771992;
-			
-			// aapt resource value: 0x7F010019
-			public const int RedBar = 2130771993;
+			public const int RedBar = 2130771985;
 			
 			static Drawable()
 			{
