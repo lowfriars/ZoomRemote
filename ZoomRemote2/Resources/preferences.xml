@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <CheckBoxPreference
+      android:key="connect_prev"
+      android:title="@string/connect_prev"
+      android:summary="@string/connect_prev_summ"
+      android:defaultValue="true" />
+  <EditTextPreference
+    android:key="last_device"
+    android:title="@string/last_device"
+    android:summary="@string/last_device_summ"
+    android:inputType="none"
+    android:editable="false"
+    android:defaultValue="" />
+  <EditTextPreference
+      android:key="init_string_1"
+      android:title="@string/init_string_1"
+      android:summary="@string/init_string_summ_1"
+      android:inputType="number"
+      android:maxLength="3"
+      android:defaultValue="@string/init_string_default_1" />
+  <EditTextPreference
+      android:key="init_string_2"
+      android:title="@string/init_string_2"
+      android:summary="@string/init_string_summ_2"
+      android:inputType="number"
+      android:maxLength="3"
+      android:defaultValue="@string/init_string_default_2" />
+  <EditTextPreference
+    android:key="init_string_3"
+    android:title="@string/init_string_3"
+    android:summary="@string/init_string_summ_3"
+    android:inputType="number"
+    android:maxLength="3"
+    android:defaultValue="@string/init_string_default_3" />
+
+</PreferenceScreen>

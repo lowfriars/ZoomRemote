@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:showDividers="none"
+    android:dividerPadding="0px">
+
+  <GridLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridViewPlay"
+        android:rowCount="2"
+        android:columnCount="3"
+        android:layout_marginTop="0px"
+        android:padding="0px"
+        android:layout_gravity="center_horizontal">
+        <ImageView
+            android:src="@drawable/buttonprev"
+            android:id="@+id/buttonPrevIcon"
+            android:background="@drawable/buttonbgnormal"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            android:layout_column="0" />
+        <ImageView
+            android:src="@drawable/buttonplay"
+            android:id="@+id/buttonPlayIcon"
+            android:background="@drawable/buttonbgnormal"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            android:layout_column="1" />
+        <ImageView
+            android:src="@drawable/buttonnext"
+            android:id="@+id/buttonNextIcon"
+            android:background="@drawable/buttonbgnormal"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            android:layout_column="2" />
+        <ImageView
+            android:src="@drawable/buttonvoldown"
+            android:id="@+id/buttonVolDownIcon"
+            android:background="@drawable/buttonbgnormal"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            android:layout_column="0" />
+        <ImageView
+            android:src="@drawable/buttonstop"
+            android:id="@+id/buttonStopIcon"
+            android:background="@drawable/buttonbgnormal"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            android:layout_column="1" />
+        <ImageView
+            android:src="@drawable/buttonvolup"
+            android:id="@+id/buttonVolUpIcon"
+            android:background="@drawable/buttonbgnormal"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            android:layout_column="2" />
+    </GridLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:id="@+id/viewSpace"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+    <GridLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridViewRecord"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:layout_margin="0px"
+        android:layout_marginBottom="0px"
+        android:layout_marginLeft="0px"
+        android:layout_marginRight="0px"
+        android:padding="0px"
+        android:layout_gravity="center_horizontal">
+        <ImageView
+            android:src="@drawable/levelforeground"
+            android:id="@+id/levelMicIcon"
+            android:background="@drawable/levelbackgrounddefault"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            android:layout_column="0" />
+        <ImageView
+            android:src="@drawable/levelforeground"
+            android:id="@+id/levelLine1Icon"
+            android:scaleType="center"
+            android:background="@drawable/levelbackgrounddefault"
+            android:layout_gravity="center"
+            android:layout_column="1" />
+        <ImageView
+            android:src="@drawable/levelforeground"
+            android:id="@+id/levelLine2Icon"
+            android:background="@drawable/levelbackgrounddefault"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            android:layout_column="2" />
+        <ImageView
+            android:src="@drawable/buttonmicdown"
+            android:id="@+id/buttonMicDownIcon"
+            android:background="@drawable/buttonbgnormal"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            android:layout_column="0" />
+        <ImageView
+            android:src="@drawable/buttonrecord"
+            android:id="@+id/buttonRecordIcon"
+            android:background="@drawable/buttonbgnormal"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            android:layout_column="1" />
+        <ImageView
+            android:src="@drawable/buttonmicup"
+            android:id="@+id/buttonMicUpIcon"
+            android:background="@drawable/buttonbgnormal"
+            android:scaleType="center"
+            android:adjustViewBounds="false"
+            android:layout_gravity="center"
+            android:layout_column="2" />
+        <ImageView
+            android:src="@drawable/buttonwidth"
+            android:id="@+id/buttonWidthIcon"
+            android:background="@drawable/buttonbgnormal"
+            android:layout_column="1"
+            android:layout_gravity="center" />
+        <TextView
+            android:text="UP"
+            android:id="@+id/debugStateText"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:textSize="40dp" />
+    </GridLayout>
+</LinearLayout>

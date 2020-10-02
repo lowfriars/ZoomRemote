@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:showDividers="none" >
+    
+    <TextView
+        android:id="@+id/deviceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="10sp"
+        android:textSize="30sp"
+        android:text="No Device Selected"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Level 1"
+            android:src="@drawable/greybar"
+            android:id="@+id/level1"
+            android:background="@android:color/transparent"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            android:paddingBottom="5dp"
+        />
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Level 2"
+            android:src="@drawable/greybar"
+            android:id="@+id/level2"
+            android:background="@android:color/transparent"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            android:paddingBottom="5dp"
+        />
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridViewRecord"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:layout_gravity="center_horizontal">
+ 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Mark"
+            android:src="@drawable/buttonmark"
+            android:id="@+id/buttonMarkIcon"
+            android:background="@drawable/buttonbgnormal"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            android:layout_column="0" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Rec"
+            android:src="@drawable/buttonrecord"
+            android:id="@+id/buttonRecordIcon"
+            android:background="@drawable/buttonbgnormal"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            android:layout_column="1" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Pause"
+            android:src="@drawable/buttonrecordpause"
+            android:id="@+id/buttonRecPauseIcon"
+            android:background="@drawable/buttonbgnormal"
+            android:scaleType="center"
+            android:adjustViewBounds="false"
+            android:layout_gravity="center"
+            android:layout_column="2" />
+       
+    </GridLayout>
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridViewPlay"
+        android:rowCount="2"
+        android:columnCount="3"
+        android:layout_gravity="center_horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Back"
+            android:src="@drawable/buttonprev"
+            android:id="@+id/buttonPrevIcon"
+            android:background="@drawable/buttonbgnormal"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            android:layout_column="0" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Play"
+            android:src="@drawable/buttonplay"
+            android:id="@+id/buttonPlayIcon"
+            android:background="@drawable/buttonbgnormal"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            android:layout_column="1" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Next"
+            android:src="@drawable/buttonnext"
+            android:id="@+id/buttonNextIcon"
+            android:background="@drawable/buttonbgnormal"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            android:layout_column="2" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Soft"
+            android:src="@drawable/buttonvoldown"
+            android:id="@+id/buttonVolDownIcon"
+            android:background="@drawable/buttonbgnormal"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            android:layout_column="0" />
+        <Button
+        android:text="Scan..."
+            android:id="@+id/button_launch_scan"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <!---
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Stop"
+            android:src="@drawable/buttonstop"
+            android:id="@+id/buttonStopIcon"
+            android:background="@drawable/buttonbgnormal"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            android:layout_column="1" />
+        -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Loud"
+            android:src="@drawable/buttonvolup"
+            android:id="@+id/buttonVolUpIcon"
+            android:background="@drawable/buttonbgnormal"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            android:layout_column="2" />
+    </GridLayout>
+ 
+</LinearLayout>

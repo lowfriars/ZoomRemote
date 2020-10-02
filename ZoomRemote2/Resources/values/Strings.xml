@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">ZoomRemote2</string>
+    <string name="button_scan">Scan for devices</string>
+  <string name="button_endscan">Cancel scanning</string>
+  <string name="scanning">Scanning for devices...</string>
+  <string name="connecting">Connecting to device...</string>
+  <string name="connected">Connected</string>
+  <string name="select_device">Select a device to connect</string>
+  <string name="none_paired">No devices have been paired</string>
+  <string name="none_found">No devices found</string>
+  <string name="connect_prev">Auto-reconnect</string>
+  <string name="connect_prev_summ">Automatically reconnect to last device</string>
+  <string name="last_device">Last device</string>
+  <string name="last_device_summ">Name of last-connected device</string>
+  <string name="init_string_1">Control byte 1</string>
+  <string name="init_string_summ_1">Initial code sent to register with device</string>
+  <string name="init_string_2">Control byte 2</string>
+  <string name="init_string_summ_2">Initial code sent to register with device</string>
+  <string name="init_string_3">Control byte 3</string>
+  <string name="init_string_summ_3">Initial code sent to register with device</string>
+  <string name="init_string_default_1">161</string>
+  <string name="init_string_default_2">128</string>
+  <string name="init_string_default_3">0</string>
+  <string name="menu_advanced_text">Advanced</string>
+  <string name="menu_scan_text">Device scan</string>
+</resources>
