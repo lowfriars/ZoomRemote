@@ -36,8 +36,11 @@ An apk file can be downloaded from the repository - it's not available in the Pl
 Further instructions on sideloading can be found [here](https://androidcommunity.com/how-to-sideloading-apps-on-your-android-device-20180417/).
 
 ### Usage
-Once the HC-06 is correctly configured and wired to the Zoom recorder, the app can be launched.
-Use the "scan..." button to select the correct Bluetooth device and pair it (if not previously paired).
+Once the HC-06 is correctly configured and wired to the Zoom recorder, you will need to pair it with the Android device
+from the Bluetooth menu. 
+
+Use the "scan..." button in the app to select the correct Bluetooth device. It will only show devices
+that are already paired and support Bluetooth serial communications.
 Your choice will be remembered and used the next time the app is launched.
 
 Initially the buttons will be dimmed and disabled, but when the app has successfully connected to the
