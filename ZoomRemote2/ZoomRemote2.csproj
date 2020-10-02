@@ -63,6 +63,7 @@
     <Compile Include="Resources\Resource.Designer.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="APK\ZoomRemote.ZoomRemote.apk" />
     <None Include="README.md" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
