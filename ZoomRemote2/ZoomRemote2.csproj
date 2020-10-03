@@ -69,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="APK\ZoomRemote.ZoomRemote.apk" />
+    <None Include="LICENSE" />
     <None Include="README.md" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
@@ -134,9 +135,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\menu\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="LICENSE" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
