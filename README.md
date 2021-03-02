@@ -47,7 +47,7 @@ Initially the buttons will be dimmed and disabled, but when the app has successf
 recorder, the applicable buttons will be highlighted and enabled. Different buttons are available in 
 Play mode and Record mode. 
 
-(Image to be provided)
+More information on my [blog](https://nofirmconclusion.blogspot.com/).
 
 ## Authors
 
